@@ -50,7 +50,7 @@ def display_goodbye():
     ''')
 
 def scramble_word(word):
-    # Conver the word to a list of characters so it can be used in the shuffler
+    # Convert the word to a list of characters so it can be used in the shuffler
     character_list = list(word)
     random.shuffle(character_list)
 
