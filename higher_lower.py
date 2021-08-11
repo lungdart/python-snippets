@@ -58,7 +58,10 @@ def guess_number():
     return guess
 
 def show_count(count):
-    print(f"You're at {count} guesses")
+    if count == 1:
+        print("That was your first guess!")
+    else:
+        print(f"You're at {count} guesses")
     print("")
 
 def main():
